@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+  .intro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .intro img{
+    height: 450px;
+  }

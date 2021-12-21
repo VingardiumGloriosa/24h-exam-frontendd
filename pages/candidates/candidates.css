@@ -1,0 +1,30 @@
+.selectors{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.candidate-info{
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: solid 3px #E9AFA3;
+    background-color: #3A405A;
+    color: #E9AFA3;
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+button:hover{
+    padding: 10px;
+    border-radius: 0;
+    text-transform: uppercase;
+    border: solid 3px #3A405A;
+    background-color: #E9AFA3;
+    color: #3A405A;
+    transition: all 0.5s;
+}

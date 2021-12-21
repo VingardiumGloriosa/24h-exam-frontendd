@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" href="../../resources/css/navbar.css">
+    <link rel="stylesheet" href="candidates.css">
+    <title>Candidates</title>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="../main/index.html">Home</a>
+        <a href="../candidates/candidates.html">Candidates</a>
+        <a href="../vote/vote.html">Vote</a>
+        <a href="../final-vote-results/final-vote-results.html">Final Vote Results</a>
+        <a href="../user/user.html">User</a>
+        <a>3rd SEM AP Computer Science<br>24-hour Exam<br>Made by : Grófová Glória</a>
+      </div>
+
+      <div class="content">
+
+            <h1>Candidate List</h1>
+            <div class="selectors">
+                <button class="btn">All candidates</button>
+                <button class="btn " onclick="showById('A')">Socialdemokratiet</button>
+                <button class="btn C" onclick="showById('C')">Det konservative Folkeparti</button>
+                <button class="btn F" onclick="showById('F')">SF</button>
+                <button class="btn O" onclick="showById('O')">Dansk Folkeparti</button>
+                <button class="btn V" onclick="showById('V')">Venstre, Danmarks Liberale Parti</button>
+                <button class="btn">Clear</button>
+            </div>  
+            <div class="candidates-paragraph">
+            </div>
+    </div>
+<script src="candidates.js"></script>
+</body>
+</html> 

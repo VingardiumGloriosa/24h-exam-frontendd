@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    overflow-x: hidden;
+  
+  }
+  
+  /* The side navigation menu */
+  .sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:#E9AFA3;
+    overflow-x: hidden;
+    padding-top: 20px;
+    }
+    
+    /* The navigation menu links */
+    .sidenav a {
+      padding: 8px 8px 8px 15px;
+      text-decoration: none;
+      font-size: 25px;
+      color: #8A7968;
+      display: block;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  
+    .sidenav a:last-child{
+      font-size: 15px;
+      font-weight: 400;
+      position: absolute;
+      color: #3A405A;
+      bottom: 5%;
+    }
+    
+    /* When you mouse over the navigation links, change their color */
+    .sidenav a:hover {
+      color: #3A405A;
+    }
+      
+    /* Page content */
+    .content {
+      margin-left: 200px;
+      text-align: center;
+    }
+
+    h1{
+      text-align: center;
+      text-transform: uppercase;
+      font-weight: 500;
+      font-size: 40px;
+      font-family: 'Quicksand', sans-serif;
+    }
+
+    .spacer{
+      height: 35px;
+    }
+
+
+
+  
